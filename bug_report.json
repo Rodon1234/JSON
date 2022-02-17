@@ -2,7 +2,7 @@
   
   "№": 1,
   "Incident_Type:" "Bug",
-  "Summary": "PHP error appears in window after input SQL request in lield of login,
+  "Summary": "PHP error appears in window after input SQL request in lield of login",
   "Description": "If enter SQL request in lield of login and press [Поехали] button PHP error appears in",
   "Step_to_reproduce": [ 1 " Open page via URL http://megatask/",
                         2 " Enter DB request (SELECT * FROM users WHERE u_ul LIKE 'a%') in field 'Логин',
