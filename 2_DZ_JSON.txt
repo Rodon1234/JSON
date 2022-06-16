@@ -48,4 +48,42 @@
                                                                      }
 
 
+13)Отправить сразу 2 файла на внешний репозиторий.                 $ touch test1.json test2.json test1.txt
+                                                                   $ git add .
+                                                                   $ git commit -m "add 3 files"
+                                                                   $ git push
 
+
+14) Создать файл sklls.json добавить информацию о скиллах 
+которые будут изучены на курсе в формате JSON                
+
+15)   Отправить сразу 2 файла на внешний репозиторий.              add file->Upload file->Choose your files-> зажим Ctrl, выбор нужных файлов->Открыть
+
+16) На веб интерфейсе создать файл bug_report.json                 add file->Create new file-> "название"->Commit new file.
+
+                                                                
+
+17) Сделать Commit changes (сохранить) изменения на веб            Нижний левый угол диалог окна "Commit changes"
+интерфейсе.
+
+18) На веб интерфейсе модифицировать файл bug_report.json,        Owerview->XML->bug_report.xml-> Открывается диалог окно для редактирования.
+добавить баг репорт в формате JSON.
+                                                                  {
+
+                                                                "№": 1,
+                                                                "Incident_Type:" "Bug",
+                                                                "Summary": "PHP error appears in window after input SQL request in lield of login",
+                                                                "Description": "If enter SQL request in lield of login and press [Поехали] button PHP error appears in",
+                                                                "Step_to_reproduce": [ 1 " Open page via URL http://megatask/",
+                                                                2 " Enter DB request (SELECT * FROM users WHERE u_ul LIKE 'a%') in field 'Логин' ",
+                                                                3 "Enter correct password (b) in field 'Пароль',"
+                                                                4 "Press 'Поехали' button" ]
+                                                                "Severty": "minor"
+                                                                "Priority": "Medium"
+ 
+                                                                    }
+                                                                // commit change [Enter]
+       
+19) Сделать Commit changes (сохранить) изменения на веб интерфейсе.
+
+20) Синхронизировать внешний и локальный репозиторий JSON          // git pull    
