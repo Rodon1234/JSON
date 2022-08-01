@@ -66,24 +66,3 @@
 17) Сделать Commit changes (сохранить) изменения на веб            Нижний левый угол диалог окна "Commit changes"
 интерфейсе.
 
-18) На веб интерфейсе модифицировать файл bug_report.json,        Owerview->XML->bug_report.xml-> Открывается диалог окно для редактирования.
-добавить баг репорт в формате JSON.
-                                                                  {
-
-                                                                "№": 1,
-                                                                "Incident_Type:" "Bug",
-                                                                "Summary": "PHP error appears in window after input SQL request in lield of login",
-                                                                "Description": "If enter SQL request in lield of login and press [Поехали] button PHP error appears in",
-                                                                "Step_to_reproduce": [ 1 " Open page via URL http://megatask/",
-                                                                2 " Enter DB request (SELECT * FROM users WHERE u_ul LIKE 'a%') in field 'Логин' ",
-                                                                3 "Enter correct password (b) in field 'Пароль',"
-                                                                4 "Press 'Поехали' button" ]
-                                                                "Severty": "minor"
-                                                                "Priority": "Medium"
- 
-                                                                    }
-                                                                // commit change [Enter]
-       
-19) Сделать Commit changes (сохранить) изменения на веб интерфейсе.
-
-20) Синхронизировать внешний и локальный репозиторий JSON          // git pull    
