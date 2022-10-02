@@ -7,4 +7,8 @@
   "Step_to_reproduce": [ 1 " Open page via URL http://megatask/",
                         2 " Enter DB request (SELECT * FROM users WHERE u_ul LIKE 'a%') in field 'Логин' ",
                         3 "Enter correct password (b) in field 'Пароль',"
-       
+                        4 "Press 'Поехали' button" ]
+
+"Severty": "minor"
+ "Priority": "Medium"
+      
